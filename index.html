@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>80s Fashion</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="phone">
+
+<!-- HOME -->
+<section id="home" class="screen active">
+
+<header>
+<h1>80s Fashion</h1>
+<p>Alumno: Tu Nombre</p>
+</header>
+
+<img src="images/moda80.jpg" class="main-img">
+
+<div class="menu">
+
+<button onclick="showScreen('ropa')">
+👕 Estilos de Ropa
+</button>
+
+<button onclick="showScreen('iconos')">
+⭐ Iconos de la Moda
+</button>
+
+</div>
+
+</section>
+
+
+<!-- PANTALLA ROPA -->
+<section id="ropa" class="screen">
+
+<header>
+<h2>Estilo de ropa en los 80</h2>
+</header>
+
+<img src="images/ropa80.jpg" class="main-img">
+
+<p class="text">
+La moda de los años 80 se caracterizó por colores neón,
+hombreras grandes, chaquetas de mezclilla, pantalones
+ajustados y accesorios llamativos.
+</p>
+
+<button class="back" onclick="showScreen('home')">
+⬅ Regresar
+</button>
+
+</section>
+
+
+<!-- PANTALLA ICONOS -->
+<section id="iconos" class="screen">
+
+<header>
+<h2>Iconos de la moda</h2>
+</header>
+
+<img src="images/iconos80.jpg" class="main-img">
+
+<p class="text">
+Celebridades como Madonna, Michael Jackson y Prince
+influyeron enormemente en la moda de los 80 con estilos
+atrevidos y originales.
+</p>
+
+<button class="back" onclick="showScreen('home')">
+⬅ Regresar
+</button>
+
+</section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
